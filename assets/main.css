@@ -1,0 +1,121 @@
+html {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  font-family: "UD デジタル 教科書体 NP-B","UD Digi Kyokasho NP-B";
+  font-weight: bold;
+}
+head {
+  height: 0;
+}
+#body-div {
+  border-radius: 10px;
+  background-color: gray;
+  -webkit-app-region: drag;
+}
+
+header {
+  height: auto;
+}
+
+#Title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  height: auto;
+}
+
+.undragable {
+  -webkit-app-region: none;
+}
+
+label input {
+  display: none;
+}
+label button {
+  display: none;
+}
+
+#selectFileLabel {
+  border-radius: 2px;
+  background: white;
+  color: gray;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  float: left;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+#selectFile {
+  display: none;
+  float: left;
+}
+
+#file-svg {
+  float: left;
+}
+
+#closeButtonLabel {
+  border-radius: 2px;
+  background: white;
+  color: gray;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+#closeButton {
+  display: none;
+}
+
+#exit-svg {
+
+}
+
+#main-textarea {
+  float: none;
+  /* pointer-events: none; */
+  resize: none;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  -webkit-app-region: none;
+  height: 400px;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 10px;
+}
+
+#output {
+  background-color: black;
+  -webkit-app-region: none;
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 4%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+footer {
+  height: 50px;
+}
