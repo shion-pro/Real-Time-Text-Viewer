@@ -1,6 +1,6 @@
 # Real-Time-Text-Viewer
 
-ver 0.0
+## ver 0.0
 
 こんにちは、Shion-Proと申します。
 
@@ -12,7 +12,7 @@ ver 0.0
 
 よろしくお願いします！
 
-ver 0.1
+## ver 0.1
 
 electronに移行してみました。
 
