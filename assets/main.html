@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./main.css" />
+  <title>Real Time Text Viewer</title>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id="body-div">
+    <header>
+      <p id="Title">Real Time Text Viewer</p>
+    </header>
+    <main class="undragable">
+      <label for="selectFile" id="selectFileLabel">Select File
+        <input id="selectFile" class="undragable" type="file" onchange="FileChanged();" />
+      </label>
+      <label for="closeButton" id="closeButtonLabel">Close
+        <input id="closeButton" class="undragable" type="button" onclick="Close();">
+      </label>
+      <textarea name="main-textarea" rows="8" cols="80" id="main-textarea" readonly></textarea>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+</body>
+</html>
